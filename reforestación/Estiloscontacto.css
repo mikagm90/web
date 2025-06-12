@@ -1,0 +1,92 @@
+.contenido {
+  max-width: 850px;
+  margin: 50px auto;
+  padding: 40px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #ffffff;
+  border: 1px solid #dcdcdc;
+  border-radius: 16px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  color: #b91386;
+}
+
+/* Título */
+.contenido h2 {
+  font-size: 28px;
+  color: #bb298e;
+  margin-bottom: 20px;
+  border-bottom: 2px solid #dcdcdc;
+  padding-bottom: 10px;
+  text-align: left;
+}
+
+/* Estilo de lista de enlaces */
+.contenido ul {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 35px;
+}
+
+.contenido ul li {
+  margin-bottom: 12px;
+}
+
+.contenido ul a {
+  text-decoration: none;
+  color: #d280c5;
+  font-size: 18px;
+  transition: color 0.3s ease;
+}
+
+.contenido ul a:hover {
+  color: #8c004b;
+  text-decoration: underline;
+}
+
+/* Formulario */
+form {
+  margin-top: 30px;
+}
+
+form label {
+  display: block;
+  margin-top: 18px;
+  margin-bottom: 6px;
+  font-weight: 600;
+  color: #444;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 12px 14px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+  background-color: #fefefe;
+  font-size: 16px;
+  transition: border 0.2s ease;
+}
+
+form input:focus,
+form textarea:focus {
+  border-color: #8c004b;
+  outline: none;
+  background-color: #fdf;
+}
+
+/* Botón */
+form button {
+  margin-top: 20px;
+  background-color: #a349a4;
+  color: white;
+  padding: 12px 28px;
+  border: none;
+  border-radius: 8px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+form button:hover {
+  background-color: #b695c0;
+}

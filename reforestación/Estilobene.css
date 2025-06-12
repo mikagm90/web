@@ -1,0 +1,64 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #7cfc00;
+  color: #000;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+}
+
+.contenido {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 4px 16px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilo para títulos */
+h2, h3 {
+  color: #00cf02;
+  border-bottom: 2px solid #ccc;
+  text-align: center;
+  padding-bottom: 5px;
+  margin-top: 20px;
+}
+
+/* Divide el contenido en 3 columnas */
+main {
+  column-count: 3;
+  column-gap: 40px;
+  text-align: justify;
+}
+
+/* Asegura que cada sección no se rompa entre columnas */
+section, aside, p, li, em {
+  break-inside: avoid;
+}
+
+/* Estilo para los textos destacados */
+u {
+  font-weight: bold;
+  color: #000;
+}
+
+em {
+  font-style: italic;
+  color: #555;
+}
+
+/* Espaciado entre párrafos */
+p {
+  margin-bottom: 15px;
+}
+
+/* Estilo de enlaces si los hubiera */
+a {
+  color: #2e86c1;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}

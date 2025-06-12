@@ -1,0 +1,132 @@
+<style>
+body{
+	margin: 0;
+	font-family:  ´Segoe UI´,sans-serif;
+	display: flex;
+}
+/*Nav (Izquierda)*/
+nav{
+	width: 220px;
+	min-height: 100vh;
+	background: linear-gradient(to bottom,#ef9a33,#7cfc00);
+	color: white;
+	padding-top: 30px;
+	position: fixed;
+	left: 0;
+	top: 0;
+}
+
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+}
+
+nav ul li{
+	position: relative;
+}
+
+nav ul li a{
+	display: block;
+	padding: 15px 20px;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: background 0.3s;
+}
+
+nav ul li a:hover{
+	background-color:rgb(255, 255, 255, 0.1);
+}
+
+/*Submenú*/
+nav ul li ul{
+	display: none;
+	background-color: #ef8517;
+}
+
+nav ul li:hover ul{
+	display: block;
+}
+
+nav ul li ul li a{
+	padding-left: 30px;
+	font-weight: normal;
+}
+
+/*Contenido*/
+.contenido{
+	margin-left: 220px;
+	width: calc(100% - 220px);
+}
+
+header{
+	background: linear-gradient(to right,#ef9a33,#7cfc00);
+	color: width;
+	padding: 20px;
+	text-align: center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 20px;
+	flex-wrap: wrap;
+}
+
+header img{
+	width: 100px;
+	height: 100px;
+	border-radius: 50%;
+	border: 3px solid white;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+header .titulo{
+	text-align: left;
+}
+main{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 20px;
+}
+
+article{
+	flex: 2;
+	background-color: white;
+	margin: 10px;
+	padding: 20px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+section{
+	background-color: #fff;
+	padding: 15px;
+	margin-top: 20px;
+	border-left: 5px solid #ef7c30;
+}
+
+aside{
+	flex: 1;
+	background-color: #7cfc00;
+	margin: 10px;
+	padding: 15px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+footer{
+	background:linear-gradient(to right,#ef9a33,#7cfc00);
+	color: white;
+	text-align: center;
+	padding: 20px 0;
+	margin-top: 40px;
+}
+
+footer h3{
+	margin:0;
+	font-size: 1.1em;
+}
+
+footer p{
+	margin: 5px 0 0 0 ;
+	font-size: 0.9em;
+}
+
+</style>

@@ -1,0 +1,71 @@
+body {
+  font-family: 'Dancing Script', cursive;
+  background: linear-gradient(to right, #9dff0f, #9dff0f);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+}
+
+form {
+  background: #e9a600;
+  padding: 40px;
+  border-radius: 20px;
+  box-shadow: 0 12px 30px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 500px;
+  text-align: center;
+}
+
+h1 {
+  font-size: 36px;
+  color: #e95e00;
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  font-size: 20px;
+  margin-bottom: 6px;
+  color: #333;
+  text-align: left;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  font-family: inherit;
+  font-size: 18px;
+  border: 2px solid #ffcdd2;
+  border-radius: 12px;
+  margin-bottom: 20px;
+  transition: all 0.3s ease;
+  background: #fff9f9;
+}
+
+input:focus,
+textarea:focus {
+  border-color: #f06292;
+  background: #fff0f5;
+  outline: none;
+}
+
+button[type="submit"] {
+  background-color: #ff8c00;
+  color: #fff;
+  border: none;
+  padding: 14px 25px;
+  font-size: 20px;
+  border-radius: 12px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button[type="submit"]:hover {
+  background-color: #ff05a3;
+}
+
+

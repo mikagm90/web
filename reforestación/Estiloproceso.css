@@ -1,0 +1,67 @@
+/* Estilos generales */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #7cfc00;
+  margin: 0;
+  padding: 0;
+}
+
+section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 30px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+  color: #2c3e50;
+  border-left: 4px solid #27ae60;
+  padding-left: 10px;
+  margin-bottom: 20px;
+}
+
+/* Diseño en columnas para etapas */
+.etapa, .explicacion {
+  display: flex;
+  align-items: flex-start;
+  text-align: justify;
+  margin-bottom: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.etapa img, .explicacion img {
+  flex: 1 1 250px;
+  max-width: 300px;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.etapa p, .explicacion p, .explicacion li {
+  flex: 2;
+  font-size: 16px;
+  color: #34495e;
+  line-height: 1.6;
+  margin-bottom: 10px;
+}
+
+/* Lista */
+.explicacion li {
+  margin-left: 20px;
+  list-style-type: disc;
+}
+
+/* Responsivo */
+@media (max-width: 768px) {
+  .etapa, .explicacion {
+    flex-direction: column;
+    text-align: justify;
+  }
+
+  .etapa img, .explicacion img {
+    margin: 0 auto;
+  }
+}
